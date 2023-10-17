@@ -4,51 +4,93 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>1st semister Subjects</title>
+    <Style>
+        body,html{
+            height: 100%;
+        }
+        header{
+            text-align: center;
+            padding: 20px;
+            font-size: 20px;
+        }
+        main{
+            margin-left: 5px;
+            margin-right: 5px;
+            text-align:center;
+            padding:auto;
+            background: linear-gradient(#FDFCFB,#E2D1C3);
+            height: 100%;
+
+        }
+        .s{
+            color: #1b38dd !important;
+            text-transform: uppercase;
+            background: #ffffff;
+            padding: 5px;
+            border: 4px solid #20bf6b !important;
+            border-radius: 6px;
+            transition: all 0.3s ease 0s;
+            margin: 5px;
+            height: 50px;
+            text-align: center;
+            margin-bottom: 20px;
+            font-weight:bold;
+
+        }
+        .s:hover{
+            color: #494949 !important;
+            border-radius: 50px;
+            border-color: #494949 !important;
+            transition: all 0.3s ease 0s;
+        }
+    </Style>
 </head>
 <body>
     <!--select your subject 1st sem-->
-    <h2>
-        - Select Your Subject -
-    </h2>
-    <form>
-        <a href="/website/SubBCS/FY/sem1/Cprog.html">
-            <input type="button"value="C Programming">
-        </a>
-        <br>
-        <br>
-        <a href="/website/SubBCS/FY/sem1/DBMS.html">
-            <input type="button"value="DataBase Management System">
-        </a>
-        <br>
-        <br>
-        <a href="/website/SubBCS/FY/sem1/digital.html">
-            <input type="button"value="Principles of Digital Electronics">
-        </a>
-        <br>
-        <br>
-        <a href="/website/SubBCS/FY/sem1/semicon.html">
-            <input type="button"value="Semiconductor Devices and Basic Electronic Systems">
-        </a>
-        <br>
-        <br>
-        <a href="/website/SubBCS/FY/sem1/dismath.html">
-            <input type="button"value="Discrete Mathematics">
-        </a>
-        <br>
-        <br>
-        <a href="/website/SubBCS/FY/sem1/matrix.html">
-            <input type="button"value="Matrix Algebra">
-        </a>
-        <br>
-        <br>
-        <a href="/website/SubBCS/FY/sem1/disstat.html">
-            <input type="button"value="Discrete Statistics">
-        </a>
-        <br>
-        <br>
-        <a href="/website/SubBCS/FY/sem1/mathstat.html">
-            <input type="button"value="Mathematical Statistics">
-        </a>
-    </form>
+    <main>
+    <header>
+        <h2>
+            - Select Your Subject -
+        </h2>
+    </header>
+        <form>
+            <div>
+                <a href="/website/SubBCS/FY/sem1/Cprog.html">
+                    <input type="button"value="Problem Solving Using &#x00A; Computer and 'C' Prgramming" class="s">
+                </a>
+                <br>
+                <a href="/website/SubBCS/FY/sem1/DBMS.html">
+                    <input type="button"value="DataBase Management System" class="s">
+                </a>
+            </div>
+            <div>
+                <a href="/website/SubBCS/FY/sem1/digital.html">
+                    <input type="button"value="Principles of Digital Electronics" class="s">
+                </a>
+                <br>
+                <a href="/website/SubBCS/FY/sem1/semicon.html">
+                    <input type="button"value="Semiconductor Devices and &#x00A; Basic Electronic Systems" class="s">
+                </a>
+            </div>
+            <div>
+                <a href="/website/SubBCS/FY/sem1/dismath.html">
+                    <input type="button"value="Discrete Mathematics" class="s">
+                </a>
+                <br>
+                <a href="/website/SubBCS/FY/sem1/matrix.html">
+                    <input type="button"value="Matrix Algebra" class="s">
+                </a>
+            </div>
+            <div>
+                <a href="/website/SubBCS/FY/sem1/disstat.html">
+                    <input type="button"value="Discrete Statistics" class="s">
+                </a>
+                <br>
+                <a href="/website/SubBCS/FY/sem1/mathstat.html">
+                    <input type="button"value="Mathematical Statistics" class="s">
+                </a>
+            </div>
+        </form>
+    </main>
 </body>
 </html>
